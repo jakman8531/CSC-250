@@ -1,0 +1,9 @@
+printf
+  int - %d
+  double - %f or %lf
+  char - %c
+
+scanf
+  int - %d
+  double - %lf
+  char - %c
