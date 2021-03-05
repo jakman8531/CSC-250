@@ -1,0 +1,26 @@
+Your job will be to create a program that uses structures. You will create a structure that holds info about a computer file.
+It must have a character array (up to 100 characters) to hold the name of the file. An integer to hold the size of the file.
+It must also hold a character to hold the type of file (D for directory and F for file). Finally it must use a long to hold the
+timestamp of the last time the file was accessed.
+
+Part 1
+In your main you should create a pointer to the structure, malloc memory for the structure, and
+prompt/read in data about your structure. Do NOT print out the file info in the main.
+
+Part 2
+Write 1 function that prints out the contents of the file structure. Your function should have 1 parameter
+which is a pointer to the file structure.
+
+Below shows the expected output of running the program. Your output MUST match exactly the output below for the input from above.
+The output of the print function is the last line of the output. There must be 1 newline at the end of the print function.
+
+./a.out
+Enter the type:D
+Enter the filename:hello
+Enter the access time:1234567890
+Enter the size:24
+Filename hello Size 24 Type[D] Accessed @ 1234567890
+
+
+Submit your program file (structures.c) to the appropriate d2l dropbox.
+REMEMBER:  IF YOUR PROGRAM DOES NOT COMPILE WHEN I DOWNLOAD AND COMPILE IT, YOU WILL LOSE ½ OF THE GRADE POSSIBLE.

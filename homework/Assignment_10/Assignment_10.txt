@@ -1,0 +1,27 @@
+For this assignment you may work in groups (2 or more per group) and submit identical files.
+In order for me to grade your lab everyone must still submit their code through Dropbox as well
+as have their groups name in a comment in the top of the source code file.  Failure to do this
+will result in a 0 for this lab.  The purpose of this program is to create a program that can
+query a file for specific information.  The program will use the nvdcve.dat file provided via
+Dropbox.  Your program should have the following characteristics:
+
+-	Should not end until a user selects the ‘Quit’ option from the menu
+-	Use a struct to read/write data from/to the file
+-	The ability to both read and write to the same file
+
+I’ve provided a demo program, your program must provide AT A MINIMUM the functionality in this demo app.
+However, please feel free to enhance as you see fit.
+
+A hint about writing to the file…
+
+-	Make sure to open the file in the correct mode, I recommend ‘a’.
+-	You may find it easier when the user selects to add an entry to: close the current file pointer,
+    open the file in the preceding mode (append), append to the file (fprintf),
+    close the file, reopen in read only mode.
+-	You can’t ‘break’ in a switch, use the exit function instead.
+-	Want to clear the screen? Try: system(“clear”);
+
+
+Submit your program file (inputOutput.c) to the appropriate d2l dropbox.
+
+REMEMBER:  IF YOUR PROGRAM DOES NOT COMPILE WHEN I DOWNLOAD AND COMPILE IT, YOU WILL LOSE ½ OF THE GRADE POSSIBLE.
